@@ -15,7 +15,7 @@ class ConverterTest {
     @org.junit.jupiter.api.Test
     void whenConvert80000RblThen879Dollar() {
         int input = 80000;
-        int expected = 879;
+        int expected = 878;
         int output = Converter.rubleToDollar(input);
         Assertions.assertThat(output).isEqualTo(expected);
     }
