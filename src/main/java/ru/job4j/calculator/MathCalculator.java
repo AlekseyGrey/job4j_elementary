@@ -24,3 +24,4 @@ public class MathCalculator {
         System.out.println("Результат расчета равен: " + sumAllOperations(20, 10));
     }
 }
+
